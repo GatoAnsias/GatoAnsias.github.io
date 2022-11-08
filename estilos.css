@@ -1,0 +1,97 @@
+
+h2{
+    align-items:center;
+}
+/*Atributos Cuerpo de la Pagina*/
+body{
+    font-family: Comic Sans MS;
+    margin: 0px;
+    background-image: url(media/fondo.jpg);
+    background-size: 1500px;
+    background-position: center;
+}
+
+/*------------------Encabezado------------------------*/
+
+header{
+    min-height:100px;
+    display: flex;/*Alineacion Horizontal*/
+    justify-content: space-between;/*separa el contenido*/
+    color: white;
+    align-items: center;/*Centrar*/
+    margin: 0px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 80px;/*Tamaño de la Imagen*/
+    margin: 10px;
+}
+
+/*--------------------Barra de Navegacion---------------------------*/
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+}
+
+nav a:hover{
+    color: aquamarine;
+}
+
+
+/*Posicion para el logo y la barra de navegacion de el tamaño minimo de la pagina*/
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+}
+
+.titulo{
+    
+    background-color: rgb(86, 86, 86);
+    
+}
+
+h2{
+    text-align: center;
+}
+
+main{
+    
+    
+    background-size: 1900px;
+    margin: 0px;
+    color: white; 
+}
+
+#estudios img{
+    height: 300px;
+    
+}
+
+#estudios{
+    align-items:initial;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#contacto{
+    text-align: center;
+}
+
+
+
+
+
+
